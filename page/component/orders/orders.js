@@ -5,8 +5,8 @@ Page({
     hasAddress: false,
     total:0,
     orders:[
-        {id:1,title:'新鲜芹菜 半斤',image:'/image/s5.png',num:4,price:0.01},
-        {id:2,title:'素米 500g',image:'/image/s6.png',num:1,price:0.03}
+      {id:1,title:'扇子',image:'/Nhimage/扇子.jpg',num:1,price:99.9,selected:true},
+      {id:2,title:'簪子 ',image:'/Nhimage/簪子.jpg',num:1,price:99.9,selected:true}
       ]
   },
 
