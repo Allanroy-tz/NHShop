@@ -12,7 +12,7 @@
 }
 .form-box label{
   display: inline-flex;
-  font-size:medium;
+  font-size:small;
 }
 .form-box input{
     height: 40px;
