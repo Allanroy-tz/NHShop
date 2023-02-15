@@ -1,12 +1,23 @@
 @import '../../common/common.wxss';
-
+.main{
+  margin-top: 7%;
+}
 .form-box{
     padding-left: 30rpx;
 }
+.input-block{
+
+  display: block;
+  border-bottom: 1rpx solid #ededed;
+}
+.form-box label{
+  display: inline-flex;
+  font-size:medium;
+}
 .form-box input{
-    height: 90rpx;
-    border-bottom: 1rpx solid #ededed;
+    height: 40px;
     color: #999;
+    display:inline-flex;
 }
 .form-box .input-placeholder{
     color: #aaa;
