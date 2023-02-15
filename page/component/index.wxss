@@ -50,7 +50,7 @@ swiper-item image {
 }
 .newest-box .newest-list{
     display: inline-block;
-    width: 300rpx;
+    width: 320rpx;
     height: 340rpx;
     margin:0 20rpx 20rpx 0;
     border-radius: 10px;
