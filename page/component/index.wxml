@@ -46,7 +46,7 @@
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/包.jpg" mode="aspectFit"></image>
+                    <image src="/Nhimage/包.jpg" ></image>
                     <view class="newest-text"><text>包包</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>

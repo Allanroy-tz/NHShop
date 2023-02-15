@@ -59,7 +59,7 @@ swiper-item image {
     border: 1rpx solid #850516;
 }
 .newest-box .newest-list:nth-child(2n){
-    margin-right: 0;
+    margin-right: 10;
 }
 .newest-box .newest-list image{
     width: 220rpx;
