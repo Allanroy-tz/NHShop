@@ -8,7 +8,7 @@
          <block wx:for="{{detail}}" wx:for-index wx:key="idx">
             <view id="{{item.id}}" class="cate-box">
                 <view class="cate-banner">
-                    <image src="{{item.banner}}"></image>
+                    <image src="{{item.banner}}" mode="aspectFit"></image>
                 </view>
                 <view class="cate-title">
                     <text>{{item.cate}}</text>

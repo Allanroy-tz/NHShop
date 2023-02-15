@@ -2,7 +2,7 @@
     <swiper indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
         <block wx:for="{{imgUrls}}" wx:key="{{index}}">
             <swiper-item>
-                <image src="{{item}}" class="slide-image" width="100%"/>
+                <image src="{{item}}" class="slide-image" width="100%" mode="aspectFit"/>
             </swiper-item>
         </block>
     </swiper>
@@ -19,18 +19,18 @@
         <view class="select-top">
             <view class="select-top-small">
                 <navigator url="list/list">
-                    <image src="/Nhimage/头饰.jpg"></image>
+                    <image src="/Nhimage/头饰.jpg" mode="aspectFit"></image>
                 </navigator>
             </view>
             <view class="select-top-small">
                 <navigator url="list/list">
-                    <image src="/Nhimage/簪子.jpg"></image>
+                    <image src="/Nhimage/簪子.jpg" mode="aspectFit"></image>
                 </navigator>
             </view>
         </view>
         <view class="select-bottom">
             <navigator url="list/list">
-                <image src="/Nhimage/香包.jpg"></image>
+                <image src="/Nhimage/香包.jpg" mode="aspectFit"></image>
             </navigator>
         </view>
     </view>
@@ -39,42 +39,42 @@
         <view class="newest-box">
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/NHimage/扇子.jpg"></image>
+                    <image src="/NHimage/扇子.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>扇子</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/包.jpg"></image>
+                    <image src="/Nhimage/包.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>包包</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/耳饰.jpg"></image>
+                    <image src="/Nhimage/耳饰.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>耳饰</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/梳子.jpg"></image>
+                    <image src="/Nhimage/梳子.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>梳子</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/头梳.jpg"></image>
+                    <image src="/Nhimage/头梳.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>头梳</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/香包.jpg"></image>
+                    <image src="/Nhimage/香包.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>香包</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
