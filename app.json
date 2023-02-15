@@ -19,20 +19,20 @@
   },
   "tabBar": {
     "color": "#b7b7b7",
-    "selectedColor": "#AB956D",
+    "selectedColor": "#850516",
     "borderStyle": "white",
     "backgroundColor": "#f5f5f5",
     "list": [
       {
         "pagePath": "page/component/index",
-        "iconPath": "image/12.png",
-        "selectedIconPath": "image/11.png",
+        "iconPath": "image/商店.png",
+        "selectedIconPath": "image/商店 (1).png",
         "text": "主页"
       },
       {
         "pagePath": "page/component/category/category",
-        "iconPath": "image/22.png",
-        "selectedIconPath": "image/21.png",
+        "iconPath": "image/列表.png",
+        "selectedIconPath": "image/列表 (1).png",
         "text": "分类"
       },
       {
