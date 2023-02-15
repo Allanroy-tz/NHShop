@@ -1,5 +1,5 @@
 <view class="main">
-    <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
+    <swiper indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
         <block wx:for="{{imgUrls}}" wx:key="{{index}}">
             <swiper-item>
                 <image src="{{item}}" class="slide-image" width="100%"/>
@@ -9,7 +9,7 @@
     <view class="search">
         <navigator url="search/search">
             <view class="search-text">
-                <icon class="weui-icon-search_in-box search-icon" type="search" size="14"></icon>
+                <icon class="weui-icon-search_in-box search-icon" type="search" size="17"></icon>
                 搜 索
             </view>
         </navigator>
