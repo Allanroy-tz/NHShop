@@ -8,21 +8,21 @@
     padding: 30rpx 20rpx;
 }
 .newest-list{
-    display: inline-block;
-    width: 347rpx;
-    height: 347rpx;
-    margin:0 15rpx 10rpx 0;
-    border-radius: 10px;
-    text-align: center;
-    background: #f5f6f5;
+  display: inline-block;
+  width: 340rpx;
+  height: 340rpx;
+  margin:0 20rpx 20rpx 0;
+  border-radius: 10px;
+  text-align: center;
+  background: #ffffff;
+  border: 1rpx solid #850516;
 }
 .newest-list:nth-child(2n){
     margin-right: 0;
 }
 .newest-list image{
-    width: 300rpx;
-    height: 300rpx;
-    margin: 30rpx 0 20rpx;
+    width: 230rpx;
+    height: 230rpx;
 }
 .newest-list .newest-text{
     font-size: 32rpx;

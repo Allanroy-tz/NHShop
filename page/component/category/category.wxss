@@ -67,15 +67,15 @@ page,.main{
 
 .product-list{
     display: inline-block;
-    width: 160rpx;
-    height: 160rpx;
+    width: 230rpx;
+    height: 230rpx;
     text-align: center;
     margin:0 20rpx 20rpx 0;
     font-size: 24rpx;
 }
 .product-list image{
-    width: 80rpx;
-    height: 80rpx;
+    width: 230rpx;
+    height:230rpx;
     margin-bottom: 20rpx;
 }
 .product-list:nth-child(3n){

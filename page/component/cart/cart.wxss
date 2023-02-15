@@ -76,7 +76,7 @@
     line-height: 90rpx;
     padding:0 100rpx 0 80rpx;
     box-sizing: border-box;
-    background: #AB956D;
+    background: #850516;
     color: #fff;
 }
 .total-select{
