@@ -7,24 +7,47 @@
   "setting": {
     "urlCheck": true,
     "es6": true,
+    "enhance": true,
     "postcss": true,
+    "preloadBackgroundData": false,
     "minified": true,
     "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
-    }
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "showES6CompileOption": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.30.0",
-  "appid": "wx5543dd50014b45c3",
-  "projectname": "wxapp-mall",
+  "appid": "wx7bd641374f9ec5b2",
+  "projectname": "NHShop",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
-  "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
-  }
+  },
+  "condition": {}
 }

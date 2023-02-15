@@ -3,12 +3,12 @@ Page({
   data:{
     goods: {
       id: 1,
-      image: '/image/goods1.png',
-      title: '新鲜梨花带雨',
-      price: 0.01,
-      stock: '有货',
-      detail: '这里是梨花带雨详情。',
-      parameter: '125g/个',
+      image: '/Nhimage/扇子.jpg',
+      title: '扇子',
+      price: 99.9,
+      stock: '有现货',
+      detail: '这里是簪子详情。',
+      parameter: '125g',
       service: '不支持退货'
     },
     num: 1,

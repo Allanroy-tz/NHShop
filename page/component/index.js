@@ -1,9 +1,9 @@
 Page({
   data: {
     imgUrls: [
-      '/image/b1.jpg',
-      '/image/b2.jpg',
-      '/image/b3.jpg'
+      '/Nhimage/包.jpg',
+      '/Nhimage/耳饰.jpg',
+      '/Nhimage/梳子.jpg'
     ],
     indicatorDots: false,
     autoplay: true,
