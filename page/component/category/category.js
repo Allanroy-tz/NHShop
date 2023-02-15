@@ -1,14 +1,17 @@
 Page({
     data: {
         category: [
-            {name:'果味',id:'guowei'},
-            {name:'蔬菜',id:'shucai'},
-            {name:'炒货',id:'chaohuo'},
-            {name:'点心',id:'dianxin'},
-            {name:'粗茶',id:'cucha'},
-            {name:'淡饭',id:'danfan'}
+            {name:'头饰',id:'toushi'},
+            {name:'耳饰',id:'ershi'},
+            {name:'手饰',id:'shoushi'},
+            {name:'帽子',id:'maozi'},
+            {name:'包',id:'bao'},
+            {name:'其他',id:'other'}
         ],
-        detail:[],
+        detail:[
+          {id:'toushi',banner:'/Nhimage/头饰.jpg',cate:'头饰',detail:[{thumb:'/Nhimage/头饰.jpg',name:'头饰'},{thumb:'/Nhimage/头饰.jpg',name:'头饰'},{thumb:'/Nhimage/头饰.jpg',name:'头饰'},{thumb:'/Nhimage/头饰.jpg',name:'头饰'}]},
+          {id:'ershi',banner:'/Nhimage/头饰.jpg',cate:'头饰',detail:[{thumb:'/Nhimage/头饰.jpg',name:'头饰'},{thumb:'/Nhimage/头饰.jpg',name:'头饰'},{thumb:'/Nhimage/头饰.jpg',name:'头饰'},{thumb:'/Nhimage/头饰.jpg',name:'头饰'}]}
+        ],
         curIndex: 0,
         isScroll: false,
         toView: 'guowei'
