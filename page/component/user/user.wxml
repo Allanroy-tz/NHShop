@@ -9,9 +9,9 @@
             <navigator url="/page/component/address/address">地址管理</navigator>
         </view>
         <view wx:if="{{hasAddress}}" class="address-list">
-            <view>{{address.name}}</view>
-            <view>{{address.phone}}</view>
-            <view>{{address.detail}}</view>
+            <view>姓名：{{address.name}}</view>
+            <view>地址：{{address.phone}}</view>
+            <view>详细：{{address.detail}}</view>
         </view>
     </view>
     <view class="orders-box">

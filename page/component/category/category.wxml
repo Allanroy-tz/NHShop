@@ -24,7 +24,7 @@
                 </view>
             </view>
         </block> 
-        <!-- <block>
+        <block>
             <view id="guowei" class="cate-box">
                 <view class="cate-banner">
                     <image src="/image/c1.png"></image>
@@ -59,7 +59,7 @@
                     </view>
                 </view>
             </view>
-        </block> -->
+        </block>
     </scroll-view>
 
 </view>
