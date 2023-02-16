@@ -19,18 +19,18 @@
         <view class="select-top">
             <view class="select-top-small">
                 <navigator url="list/list">
-                    <image src="/Nhimage/头饰.jpg" mode="aspectFit"></image>
+                    <image src="/Nhimage/toushi.jpg" mode="aspectFit"></image>
                 </navigator>
             </view>
             <view class="select-top-small">
                 <navigator url="list/list">
-                    <image src="/Nhimage/簪子.jpg" mode="aspectFit"></image>
+                    <image src="/Nhimage/zanzi.jpg" mode="aspectFit"></image>
                 </navigator>
             </view>
         </view>
         <view class="select-bottom">
             <navigator url="list/list">
-                <image src="/Nhimage/香包.jpg" mode="aspectFit"></image>
+                <image src="/Nhimage/xiangbao.jpg" mode="aspectFit"></image>
             </navigator>
         </view>
     </view>
@@ -39,64 +39,64 @@
         <view class="newest-box">
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/NHimage/扇子.jpg" mode="aspectFit"></image>
+                    <image src="/NHimage/shanzi.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>扇子</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/包.jpg" ></image>
+                    <image src="/Nhimage/bag.jpg" ></image>
                     <view class="newest-text"><text>包包</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/耳饰.jpg" mode="aspectFit"></image>
+                    <image src="/Nhimage/ershi.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>耳饰</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/梳子.jpg" mode="aspectFit"></image>
+                    <image src="/Nhimage/shuzi.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>梳子</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/头梳.jpg" mode="aspectFit"></image>
+                    <image src="/Nhimage/toushu.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>头梳</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/香包.jpg" mode="aspectFit"></image>
+                    <image src="/Nhimage/xiangbao.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>香包</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/一套首饰.jpg"></image>
+                    <image src="/Nhimage/shoushi.jpg"></image>
                     <view class="newest-text"><text>一套首饰 </text></view>
                     <view class="newest-text"><text>￥ 499.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/簪子.jpg"></image>
+                    <image src="/Nhimage/zanzi.jpg"></image>
                     <view class="newest-text"><text>簪子</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/Nhimage/梳子.jpg"></image>
-                    <view class="newest-text"><text>梳子</text></view>
+                    <image src="/Nhimage/fazan.jpg"></image>
+                    <view class="newest-text"><text>发簪</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>

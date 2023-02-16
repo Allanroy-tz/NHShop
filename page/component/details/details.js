@@ -3,11 +3,11 @@ Page({
   data:{
     goods: {
       id: 1,
-      image: '/Nhimage/扇子.jpg',
+      image: '/Nhimage/shanzi.jpg',
       title: '扇子',
       price: 99.9,
       stock: '有现货',
-      detail: '这里是簪子详情。',
+      detail: '这里是扇子详情。',
       parameter: '125g',
       service: '不支持退货'
     },

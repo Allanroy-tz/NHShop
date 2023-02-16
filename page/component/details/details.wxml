@@ -13,7 +13,7 @@
             <text class="goods-operation-num">数量  {{num}}</text>
             <text class="goods-operation-add" bindtap="addCount">+</text>
             <text class="goods-to-cart" bindtap="addToCart">加入购物车</text>
-            <image src="/image/购物车白.png"  class="goods-cart-img" bindtap="addToCart"></image>
+            <image src="/image/cartwhite.png"  class="goods-cart-img" bindtap="addToCart"></image>
         </view>
         <image wx:if="{{show}}" src="/image/cart1.png" class="to-carts-icon"></image>
         <view class="goods-stock">{{goods.stock}}</view>

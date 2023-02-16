@@ -1,26 +1,26 @@
 <view class="main">
     <view class="banner">
-        <image src="/Nhimage/头饰.jpg/" mode="aspectFit"></image>
+        <image src="/Nhimage/toushi.jpg/" mode="aspectFit"></image>
     </view>
 
     <view class="list-box">
         <view class="newest-list">
             <navigator url="../details/details">
-                <image src="/Nhimage/头饰.jpg/" mode="aspectFit"></image>
+                <image src="/Nhimage/toushi.jpg/" mode="aspectFit"></image>
                 <view class="newest-text"><text>头饰</text></view>
                 <view class="newest-text"><text>￥ 99.9</text></view>
             </navigator>
         </view>
         <view class="newest-list">
             <navigator url="../details/details">
-                <image src="/Nhimage/簪子.jpg"></image>
+                <image src="/Nhimage/zanzi.jpg"></image>
                 <view class="newest-text"><text>簪子</text></view>
                 <view class="newest-text"><text>￥ 99.9</text></view>
             </navigator>
         </view>
         <view class="newest-list">
             <navigator url="../details/details">
-                <image src="/Nhimage/香包.jpg"></image>
+                <image src="/Nhimage/xiangbao.jpg"></image>
                 <view class="newest-text"><text>香包</text></view>
                 <view class="newest-text"><text>￥ 99.9</text></view>
             </navigator>
