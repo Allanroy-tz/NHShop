@@ -39,7 +39,7 @@
         <view class="newest-box">
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/NHimage/shanzi.jpg" mode="aspectFit"></image>
+                    <image src="/Nhimage/shanzi.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>扇子</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
