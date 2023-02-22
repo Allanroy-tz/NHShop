@@ -2,25 +2,20 @@ let timeId = null;
 Page({
     data: {
         history: [],
-        hot: ['新鲜芹菜', '大红枣', '滋补桂圆干'],
+        hot: ['扇子', '簪子', '发簪'],
         result: [
             {
                 id: 1,
                 url: '../details/details',
-                thumb: '/image/s4.png',
-                title: '瓜子 100g',
-                price: 0.01
+                thumb: '/Nhimage/shanzi.png',
+                title: '扇子 ',
+                price: 99.9
             },
-            {
-                id: 2,
-                url: '../details/details',
-                thumb: '/image/s5.png',
-                title: '新鲜芹菜 500g',
-                price: 0.02
-            }
+            
+            
         ],
         showKeywords: false,
-        keywords: ['山东肚脐橙', '湖南冰糖橙', '麻涌香蕉', '冰糖心苹果'],
+        keywords: ['簪子', '发簪', '扇子', '梳子'],
         value: '',
         showResult: false,
     },
