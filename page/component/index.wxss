@@ -16,7 +16,7 @@
     margin-right: 10rpx;
 }
 swiper {
-    height: 500rpx;
+    height: 245rpx;
 }
 swiper-item image {
     width: 100%;

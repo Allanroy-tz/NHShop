@@ -1,9 +1,9 @@
 Page({
   data: {
     imgUrls: [
-      '/Nhimage/bag.jpg',
-      '/Nhimage/ershi.jpg',
-      '/Nhimage/shuzi.jpg'
+      '/Nhimage/002.jpg',
+      '/Nhimage/003.jpg',
+      '/Nhimage/004.jpg'
     ],
     indicatorDots: false,
     autoplay: true,
