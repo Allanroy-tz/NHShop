@@ -8,9 +8,11 @@ App({
   onHide: function () {
     console.log('App Hide')
   },
+  
   globalData: {
     hasLogin: false,
-    modal_shop:1
+    tcDuration:3000,
+    modal_shop:1,
   },
   
 })

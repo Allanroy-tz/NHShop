@@ -1,19 +1,21 @@
 <view class="main">
     <!-- 页面的广告图片 -->
-    <view class="modal_new" hidden='{{modal_status}}'>
+    <view class="modal_new" hidden='{{modal_status1}}'>
         <image class=" close_btn" src="/Nhimage/close.png"	bindtap="close_btn"></image>
         <image src="/Nhimage/001.jpg" class="new_shop_img" mode="widthFix"
         ></image>
     </view>
     <!-- 灰色背景颜色 -->
-    <view class="modal_" bindtap="modal_btn" hidden='{{modal_status2}}'></view> 
-    <swiper indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+    <view class="modal_" bindtap="modal_btn" hidden='{{modal_status2}}'></view>
+
+    <swiper  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
         <block wx:for="{{imgUrls}}" wx:key="{{index}}">
             <swiper-item>
                 <image src="{{item}}" class="slide-image" width="100%" mode="aspectFit"/>
             </swiper-item>
         </block>
     </swiper>
+    
     <view class="search">
         <navigator url="search/search">
             <view class="search-text">
