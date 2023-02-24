@@ -1,9 +1,9 @@
 Page({
   data: {
     imgUrls: [
-      '/Nhimage/002.jpg',
-      '/Nhimage/003.jpg',
-      '/Nhimage/004.jpg'
+      
+      'http://www.wtyz.vip/Nhimage/003.jpg',
+      'http://www.wtyz.vip/Nhimage/004.jpg'
     ],
     indicatorDots: false,
     autoplay: true,

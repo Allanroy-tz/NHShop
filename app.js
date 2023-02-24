@@ -13,6 +13,7 @@ App({
     hasLogin: false,
     tcDuration:3000,
     modal_shop:1,
+    ServerName:"http://www.wtyz.vip/"
   },
   
 })

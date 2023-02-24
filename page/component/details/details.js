@@ -3,7 +3,7 @@ Page({
   data:{
     goods: {
       id: 1,
-      image: '/Nhimage/shanzi.jpg',
+      image: 'http://www.wtyz.vip/Nhimage/shanzi.jpg',
       title: '扇子',
       price: 99.9,
       stock: '有现货',

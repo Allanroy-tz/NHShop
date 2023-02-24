@@ -1,8 +1,8 @@
 <view class="main">
     <!-- 页面的广告图片 -->
     <view class="modal_new" hidden='{{modal_status1}}'>
-        <image class=" close_btn" src="/Nhimage/close.png"	bindtap="close_btn"></image>
-        <image src="/Nhimage/001.jpg" class="new_shop_img" mode="widthFix"
+        <image class=" close_btn" src="http://www.wtyz.vip/Nhimage/close.png"	bindtap="close_btn"></image>
+        <image src="http://www.wtyz.vip/Nhimage/001.jpg" class="new_shop_img" mode="widthFix"
         ></image>
     </view>
     <!-- 灰色背景颜色 -->
@@ -28,19 +28,19 @@
         <view class="select-title"><text>精选商品</text></view>
         <view class="select-top">
             <view class="select-top-small">
-                <navigator url="list/list">
-                    <image src="/Nhimage/toushi.jpg" mode="aspectFit"></image>
+                <navigator url="../component/list/list">
+                    <image src="http://www.wtyz.vip/Nhimage/toushi.jpg" mode="aspectFit"></image>
                 </navigator>
             </view>
             <view class="select-top-small">
-                <navigator url="list/list">
-                    <image src="/Nhimage/zanzi.jpg" mode="aspectFit"></image>
+                <navigator url="../component/list/list">
+                    <image src="http://www.wtyz.vip/Nhimage/zanzi.jpg" mode="aspectFit"></image>
                 </navigator>
             </view>
         </view>
         <view class="select-bottom">
-            <navigator url="list/list">
-                <image src="/Nhimage/xiangbao.jpg" mode="aspectFit"></image>
+            <navigator url="../component/list/list">
+                <image src="http://www.wtyz.vip/Nhimage/xiangbao.jpg" mode="aspectFit"></image>
             </navigator>
         </view>
     </view>
@@ -48,64 +48,64 @@
         <view class="newest-title"><text>最近新品</text></view>
         <view class="newest-box">
             <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/Nhimage/shanzi.jpg" mode="aspectFit"></image>
+                <navigator url="../component/details/details">
+                    <image src="http://www.wtyz.vip/Nhimage/shanzi.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>扇子</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/Nhimage/bag.jpg" ></image>
+                <navigator url="../component/details/details">
+                    <image src="http://www.wtyz.vip/Nhimage/bag.jpg" ></image>
                     <view class="newest-text"><text>包包</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/Nhimage/ershi.jpg" mode="aspectFit"></image>
+                <navigator url="../component/details/details">
+                    <image src="http://www.wtyz.vip/Nhimage/ershi.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>耳饰</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/Nhimage/shuzi.jpg" mode="aspectFit"></image>
+                <navigator url="../component/details/details">
+                    <image src="http://www.wtyz.vip/Nhimage/shuzi.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>梳子</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/Nhimage/toushu.jpg" mode="aspectFit"></image>
+                <navigator url="../component/details/details">
+                    <image src="http://www.wtyz.vip/Nhimage/toushu.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>头梳</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/Nhimage/xiangbao.jpg" mode="aspectFit"></image>
+                <navigator url="../component/details/details">
+                    <image src="http://www.wtyz.vip/Nhimage/xiangbao.jpg" mode="aspectFit"></image>
                     <view class="newest-text"><text>香包</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/Nhimage/shoushi.jpg"></image>
+                <navigator url="../component/details/details">
+                    <image src="http://www.wtyz.vip/Nhimage/shoushi.jpg"></image>
                     <view class="newest-text"><text>一套首饰 </text></view>
                     <view class="newest-text"><text>￥ 499.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/Nhimage/zanzi.jpg"></image>
+                <navigator url="../component/details/details">
+                    <image src="http://www.wtyz.vip/Nhimage/zanzi.jpg"></image>
                     <view class="newest-text"><text>簪子</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/Nhimage/fazan.jpg"></image>
+                <navigator url="../component/details/details">
+                    <image src="http://www.wtyz.vip/Nhimage/fazan.jpg"></image>
                     <view class="newest-text"><text>发簪</text></view>
                     <view class="newest-text"><text>￥ 99.9</text></view>
                 </navigator>

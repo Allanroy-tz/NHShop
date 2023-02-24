@@ -9,12 +9,12 @@ Page({
             {name:'其他',id:'other'}
         ],
         detail:[
-          {id:'toushi',banner:'/Nhimage/toushi.jpg',cate:'头饰',detail:[{thumb:'/Nhimage/toushi.jpg',name:'头饰'},{thumb:'/Nhimage/toushu.jpg',name:'头梳'},{thumb:'/Nhimage/shuzi.jpg',name:'梳子'},{thumb:'/Nhimage/zanzi.jpg',name:'簪子'}]},
-          {id:'ershi',banner:'/Nhimage/ershi.jpg',cate:'耳饰',detail:[{thumb:'/Nhimage/ershi.jpg',name:'耳饰'}]},
-          {id:'shoushi',banner:'/Nhimage/bag.jpg',cate:'手饰',detail:[{thumb:'/Nhimage/bag.jpg',name:'包'}]},
-          {id:'maozi',banner:'/Nhimage/maozi.jpg',cate:'手饰',detail:[{thumb:'/Nhimage/maozi.jpg',name:'咸草帽'}]},
-          {id:'bao',banner:'/Nhimage/bag.jpg',cate:'包',detail:[{thumb:'/Nhimage/bag.jpg',name:'包'}]},
-          {id:'other',banner:'/Nhimage/shoushi.jpg',cate:'其他',detail:[{thumb:'/Nhimage/shoushi.jpg',name:'一套首饰'},{thumb:'/Nhimage/jianzhi.jpg',name:'剪纸'}]},
+          {id:'toushi',banner:'http://www.wtyz.vip/Nhimage/toushi.jpg',cate:'头饰',detail:[{thumb:'http://www.wtyz.vip/Nhimage/toushi.jpg',name:'头饰'},{thumb:'http://www.wtyz.vip/Nhimage/toushu.jpg',name:'头梳'},{thumb:'http://www.wtyz.vip/Nhimage/shuzi.jpg',name:'梳子'},{thumb:'http://www.wtyz.vip/Nhimage/zanzi.jpg',name:'簪子'}]},
+          {id:'ershi',banner:'http://www.wtyz.vip/Nhimage/ershi.jpg',cate:'耳饰',detail:[{thumb:'http://www.wtyz.vip/Nhimage/ershi.jpg',name:'耳饰'}]},
+          {id:'shoushi',banner:'http://www.wtyz.vip/Nhimage/bag.jpg',cate:'手饰',detail:[{thumb:'http://www.wtyz.vip/Nhimage/bag.jpg',name:'包'}]},
+          {id:'maozi',banner:'http://www.wtyz.vip/Nhimage/maozi.jpg',cate:'手饰',detail:[{thumb:'http://www.wtyz.vip/Nhimage/maozi.jpg',name:'咸草帽'}]},
+          {id:'bao',banner:'http://www.wtyz.vip/Nhimage/bag.jpg',cate:'包',detail:[{thumb:'http://www.wtyz.vip/Nhimage/bag.jpg',name:'包'}]},
+          {id:'other',banner:'http://www.wtyz.vip/Nhimage/shoushi.jpg',cate:'其他',detail:[{thumb:'http://www.wtyz.vip/Nhimage/shoushi.jpg',name:'一套首饰'},{thumb:'http://www.wtyz.vip/Nhimage/jianzhi.jpg',name:'剪纸'}]},
         
         ],
         curIndex: 0,

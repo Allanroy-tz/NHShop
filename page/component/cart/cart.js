@@ -13,8 +13,8 @@ Page({
     this.setData({
       hasList: true,
       carts:[
-        {id:1,title:'扇子',image:'/Nhimage/shanzi.jpg',num:1,price:99.9,selected:true},
-        {id:2,title:'簪子 ',image:'/Nhimage/zanzi.jpg',num:1,price:99.9,selected:true}
+        {id:1,title:'扇子',image:'http://www.wtyz.vip/Nhimage/shanzi.jpg',num:1,price:99.9,selected:true},
+        {id:2,title:'簪子 ',image:'http://www.wtyz.vip/Nhimage/zanzi.jpg',num:1,price:99.9,selected:true}
       ]
     });
     this.getTotalPrice();
