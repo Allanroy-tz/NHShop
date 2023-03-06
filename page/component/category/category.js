@@ -12,7 +12,7 @@ Page({
           {id:'ornament',banner:'http://www.wtyz.vip/Nhimage/toushi.jpg',cate:'饰品',detail:[{thumb:'http://www.wtyz.vip/Nhimage/toushi.jpg',name:'头饰'},
           {thumb:'http://www.wtyz.vip/Nhimage/toushu.jpg',name:'头梳'},{thumb:'http://www.wtyz.vip/Nhimage/shuzi.jpg',name:'梳子'},{thumb:'http://www.wtyz.vip/Nhimage/zanzi.jpg',name:'簪子'},{thumb:'http://www.wtyz.vip/Nhimage/ershi.jpg',name:'耳饰'},]},
 
-          {id:'kniting',banner:'http://www.wtyz.vip/Nhimage/bag.jpg',cate:'针织',detail:[{thumb:'http://www.wtyz.vip/Nhimage/bag.jpg',name:'包'}]},
+          {id:'kniting',banner:'http://www.wtyz.vip/Nhimage/bag.jpg',cate:'针织',detail:[{thumb:'http://www.wtyz.vip/Nhimage/bag.jpg',name:'包'},{thumb:'http://www.wtyz.vip/Nhimage/weijin.jpg',name:'围巾'}]},
 
           {id:'bambooArt',banner:'http://www.wtyz.vip/Nhimage/kuaizi.jpg',cate:'竹艺',detail:[{thumb:'http://www.wtyz.vip/Nhimage/kuaizi.jpg',name:'筷子'}]},
 
