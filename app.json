@@ -1,12 +1,14 @@
 {
   "pages": [
     "page/index/index",
+    "page/component/customize/customize",
+    "page/component/details/details",
     "page/component/category/category",
     "page/component/cart/cart",
     "page/component/user/user",
     "page/component/address/address",
     "page/component/orders/orders",
-    "page/component/details/details",
+    
     "page/component/list/list",
     "page/component/search/search"
   ],

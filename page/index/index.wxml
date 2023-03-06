@@ -1,9 +1,11 @@
 <view class="main">
+    <view class="bg">
+    </view>
     <!-- 页面的广告图片 -->
     <view class="modal_new" hidden='{{modal_status1}}'>
-        <image class=" close_btn" src="http://www.wtyz.vip/Nhimage/close.png"	bindtap="close_btn"></image>
-        <image src="http://www.wtyz.vip/Nhimage/001.jpg" class="new_shop_img" mode="widthFix"
-        ></image>
+         <view class="close_btn" bindtap="close_btn">
+           
+         </view>
     </view>
     <!-- 灰色背景颜色 -->
     <view class="modal_" bindtap="modal_btn" hidden='{{modal_status2}}'></view>
@@ -15,15 +17,23 @@
             </swiper-item>
         </block>
     </swiper>
-    
-    <view class="search">
+    <view class="customize">
+      <navigator url="../component/customize/customize">
+        <view class="customize-text">
+          <icon>
+          </icon>
+          <text>私人定制</text>
+        </view>
+      </navigator>
+    </view>
+    <!-- <view class="search">
         <navigator url="search/search">
             <view class="search-text">
                 <icon class="weui-icon-search_in-box search-icon" type="search" size="17"></icon>
                 搜 索
             </view>
         </navigator>
-    </view>
+    </view> -->
     <view class="selected">
         <view class="select-title"><text>精选商品</text></view>
         <view class="select-top">

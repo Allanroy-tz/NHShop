@@ -1,8 +1,8 @@
 // page/component/new-pages/user/user.js
 Page({
   data:{
-    thumb:'',
-    nickname:'',
+    thumb:'../../../image/logo.jpg',
+    nickname:'女红商店官方',
     orders:[],
     hasAddress:false,
     address:{}
@@ -17,18 +17,6 @@ Page({
         self.setData({
           thumb: res.userInfo.avatarUrl,
           nickname: res.userInfo.nickName
-        })
-      }
-    }),
-
-    /**
-     * 发起请求获取订单列表信息
-     */
-    wx.request({
-      url: 'http://www.gdfengshuo.com/api/wx/orders.txt',
-      success(res){
-        self.setData({
-          orders: res.data
         })
       }
     })

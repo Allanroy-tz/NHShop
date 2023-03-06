@@ -1,0 +1,31 @@
+<view class="main">
+  <view class="QR-code" hidden='{{QRStatus}}'>
+    <view class="close_btn" bindtap="close_btn">
+
+    </view>
+  </view>    
+  <swiper autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+      <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="100%" mode="aspectFit" />
+        </swiper-item>
+      </block>
+    </swiper>
+  <view class="goods-box">
+    <!-- <image src="{{goods.image}}" class="goods-thumb"></image> -->
+
+    <view class="goods-operation" bindtap="showQR">
+      <text>联系客服</text>
+    </view>
+  </view>
+  <view class="goods-tab-box">
+    <view class="goods-tab-nav {{curIndex === 0 ?'on':''}}" bindtap="bindTap" data-index="0">私人定制服务</view>
+    <view class="goods-tab-nav {{curIndex === 1 ?'on':''}}" bindtap="bindTap" data-index="1">产品</view>
+    <view class="goods-tab-nav {{curIndex === 2 ?'on':''}}" bindtap="bindTap" data-index="2">售后保障</view>
+    <view class="goods-content">
+      <view wx:if="{{curIndex === 0}}"><text>{{goods.detail}}</text></view>
+      <view wx:if="{{curIndex === 1}}"><text>{{goods.parameter}}</text></view>
+      <view wx:if="{{curIndex === 2}}"><text>{{goods.service}}</text></view>
+    </view>
+  </view>
+</view>
