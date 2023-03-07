@@ -1,4 +1,9 @@
 <view class="main">
+  <view class="QR-code" hidden='{{QRStatus}}'>
+    <view class="close_btn" bindtap="close_btn">
+
+    </view>
+  </view>    
     <view class="header">
         
         <view class="userInfo">
@@ -6,7 +11,7 @@
           <text class="nickname">{{nickname}}</text>
         </view>
         
-        <text class="about">客服</text>
+        <text class="about" bindtap="showQR">客服</text>
     </view>
     <!-- <view class="clientele-services">
       <navigator >客服</navigator>
