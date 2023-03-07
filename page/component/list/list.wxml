@@ -8,15 +8,31 @@
             <navigator url="../details/details">
                 <image src="{{item.imgUrls}}" mode="aspectFit"></image>
                 <view class="newest-text"><text>头饰</text></view>
-                <view class="newest-text"><text>￥ 99.9</text></view>
+                <view class="newest-text"><text>￥ 15</text></view>
             </navigator>
         </view>
         <view class="newest-list" wx:key="index">
             <navigator url="../details/details">
+<<<<<<< HEAD
+                <image src="http://www.wtyz.vip/Nhimage/zanzi.jpg"></image>
+                <view class="newest-text"><text>簪子</text></view>
+                <view class="newest-text"><text>￥ 25</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="http://www.wtyz.vip/Nhimage/xiangbao.jpg"></image>
+                <view class="newest-text"><text>香包</text></view>
+                <view class="newest-text"><text>￥ 60</text></view>
+            </navigator>
+        </view>
+        
+=======
                 <image src="{{SelectedGoodBottom.imgUrls}}" mode="aspectFit"></image>
                 <view class="newest-text"><text>头饰</text></view>
                 <view class="newest-text"><text>￥ 99.9</text></view>
             </navigator>
         </view>
+>>>>>>> bbb40fc8d1ffddbc06599d9456d696010ddfed6a
     </view>
 </view>
