@@ -23,7 +23,7 @@
     <view class="goods-tab-nav {{curIndex === 1 ?'on':''}}" bindtap="bindTap" data-index="1">价格</view>
     <view class="goods-tab-nav {{curIndex === 2 ?'on':''}}" bindtap="bindTap" data-index="2">售后保障</view>
     <view class="goods-content">
-      <view wx:if="{{curIndex === 0}}"><text>{{goods.detail}}</text></view>
+      <view wx:if="{{curIndex === 0}}"><text decode="{{true}}">{{goods.detail}}</text></view>
       <view wx:if="{{curIndex === 1}}"><image class="price" mode="widthFix" src="{{ goods.price }}"></image></view>
       <view wx:if="{{curIndex === 2}}"><text>{{goods.service}}</text></view>
     </view>
