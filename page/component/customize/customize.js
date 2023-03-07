@@ -2,14 +2,15 @@
 Page({
   data:{
     imgUrls: [
-      'http://www.wtyz.vip/Nhimage/customize.jpg'
+      'http://www.wtyz.vip/Nhimage/customize.jpg',
+      'http://www.wtyz.vip/Nhimage/006.jpg',
     ],
     goods: {
       id: 1,
       image: 'http://www.wtyz.vip/Nhimage/shanzi.jpg',
       title: '扇子',
       stock: '有现货',
-      detail: '这里是私人定制详情。。。。。，这里是私人定制详情。。。。，这里是私人定制详情。。。。，这里是私人定制详情。。。。',
+      detail: '欢迎来到女红私人订制服务。我们有两种模式：你提供稿子，我们生产。你提出想法，我们设计。让顾客在本店享受满意的私人订制服务。',
       price: 'http://www.wtyz.vip/Nhimage/customizePrice.jpg',
       service: '不支持退货'
     },
