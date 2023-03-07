@@ -101,8 +101,12 @@
     width: 160rpx;
 }
 .goods-operation-add{
-    width: 80rpx;
-    margin-right: 30rpx;
+    /* width: 50rpx; */
+    margin-right: 60rpx;
+}
+.goods-operation-subtract{
+  /* width: 70rpx; */
+  /* margin-right: 30rpx; */
 }
 .goods-to-cart{
     width: 210rpx;

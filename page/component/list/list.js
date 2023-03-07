@@ -4,6 +4,11 @@ Page({
     SelectedGoodsTop:[],
     SelectedGoodBottom:[]
   },
+  tapgoods(e) {
+    const app=getApp()
+    app.SetCurrentGoods(e.currentTarget.dataset.id)
+    console.log(app.globalData.currentData)
+  },
   onLoad:function(options){
     const app=getApp()
     this.setData({

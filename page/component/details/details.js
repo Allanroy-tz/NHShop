@@ -21,7 +21,14 @@ Page({
       num : num
     })
   },
-
+  subtractCount() {
+    let num = this.data.num;
+    if(num>1)
+    num--;
+    this.setData({
+      num : num
+    })
+  },
   addToCart() {
     const self = this;
     const num = this.data.num;
