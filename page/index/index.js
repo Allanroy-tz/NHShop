@@ -10,9 +10,9 @@ Page({
     ],
     SelectedGoodBottom:{id:1,imgUrls:"http://www.wtyz.vip/Nhimage/xiangbao.jpg"},
     NewGoods:[
-      {id:1,imgUrls:"http://www.wtyz.vip/Nhimage/shanzi.jpg",name:"扇子",price:99.9}, {id:2,imgUrls:"http://www.wtyz.vip/Nhimage/bag.jpg",name:"包包",price:99.9},
-      {id:3,imgUrls:"http://www.wtyz.vip/Nhimage/ershi.jpg",name:"耳饰",price:99.9}, {id:4,imgUrls:"http://www.wtyz.vip/Nhimage/shuzi.jpg",name:"梳子",price:99.9},
-      {id:5,imgUrls:"http://www.wtyz.vip/Nhimage/toushu.jpg",name:"头梳",price:99.9}, {id:6,imgUrls:"http://www.wtyz.vip/Nhimage/xiangbao.jpg",name:"香包",price:99.9}
+      {id:1,imgUrls:"http://www.wtyz.vip/Nhimage/shanzi.jpg",name:"扇子",price:35}, {id:2,imgUrls:"http://www.wtyz.vip/Nhimage/bag.jpg",name:"包包",price:60},
+      {id:3,imgUrls:"http://www.wtyz.vip/Nhimage/ershi.jpg",name:"耳饰",price:20}, {id:4,imgUrls:"http://www.wtyz.vip/Nhimage/shuzi.jpg",name:"梳子",price:15},
+      {id:5,imgUrls:"http://www.wtyz.vip/Nhimage/toushu.jpg",name:"头梳",price:15}, {id:6,imgUrls:"http://www.wtyz.vip/Nhimage/xiangbao.jpg",name:"香包",price:30}
     ],
     indicatorDots: false,
     autoplay: true,

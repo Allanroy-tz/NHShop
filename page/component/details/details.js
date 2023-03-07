@@ -5,9 +5,9 @@ Page({
       id: 1,
       image: 'http://www.wtyz.vip/Nhimage/shanzi.jpg',
       title: '扇子',
-      price: 99.9,
+      price: 35,
       stock: '有现货',
-      detail: '这里是扇子详情。',
+      detail: '清风拂花香，执扇半遮面。',
       parameter: '125g',
       service: '不支持退货'
     },
