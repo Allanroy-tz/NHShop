@@ -1,32 +1,32 @@
 <view class="main">
-    <view class="bg">
-    </view>
-    <!-- 页面的广告图片 -->
-    <view class="modal_new" hidden='{{modal_status1}}'>
-         <view class="close_btn" bindtap="close_btn">
-           
-         </view>
-    </view>
-    <!-- 灰色背景颜色 -->
-    <view class="modal_" bindtap="modal_btn" hidden='{{modal_status2}}'></view>
+  <view class="bg">
+  </view>
+  <!-- 页面的广告图片 -->
+  <view class="modal_new" hidden='{{modal_status1}}'>
+    <view class="close_btn" bindtap="close_btn">
 
-    <swiper  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
-        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
-            <swiper-item>
-                <image src="{{item}}" class="slide-image" width="100%" mode="aspectFit"/>
-            </swiper-item>
-        </block>
-    </swiper>
-    <view class="customize">
-      <navigator url="../component/customize/customize">
-        <view class="customize-text">
-          <icon>
-          </icon>
-          <text>私人定制</text>
-        </view>
-      </navigator>
     </view>
-    <!-- <view class="search">
+  </view>
+  <!-- 灰色背景颜色 -->
+  <view class="modal_" bindtap="modal_btn" hidden='{{modal_status2}}'></view>
+
+  <swiper autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="100%" mode="aspectFit" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="customize">
+    <navigator url="../component/customize/customize">
+      <view class="customize-text">
+        <icon>
+        </icon>
+        <text>私人定制</text>
+      </view>
+    </navigator>
+  </view>
+  <!-- <view class="search">
         <navigator url="search/search">
             <view class="search-text">
                 <icon class="weui-icon-search_in-box search-icon" type="search" size="17"></icon>
@@ -34,32 +34,32 @@
             </view>
         </navigator>
     </view> -->
-    <view class="selected">
-        <view class="select-title"><text>精选商品</text></view>
-        <view class="select-top" >
-          <view class="select-top-small" wx:for="{{ SelectedGoodsTop }}" wx:key="{{index}}">
-                <navigator url="../component/list/list">
-                    <image src="{{item.imgUrls}}" mode="aspectFit"></image>
-                </navigator>
-            </view>
-        </view>
-        <view class="select-bottom">
-            <navigator url="../component/list/list">
-                <image src="{{SelectedGoodBottom.imgUrls}}" mode="aspectFit"></image>
-            </navigator>
-        </view>
+  <view class="selected">
+    <view class="select-title"><text>精选商品</text></view>
+    <view class="select-top">
+      <view class="select-top-small" wx:for="{{ SelectedGoodsTop }}" wx:key="{{index}}">
+        <navigator url="../component/list/list" bindtap="tapgoods" data-id="{{item.id}}">
+          <image src="{{item.imgUrls}}" mode="aspectFit"></image>
+        </navigator>
+      </view>
     </view>
-    <view class="newest">
-        <view class="newest-title"><text>最近新品</text></view>
-        <view class="newest-box">
-            <view class="newest-list" wx:for="{{NewGoods}}" wx:key="index">
-              <navigator url="../component/details/details">
-                    <image src="{{ item.imgUrls }}" mode="aspectFit"></image>
-                    <view class="newest-text"><text>{{item.name}}</text></view>
-                    <view class="newest-text"><text>￥{{item.price}}</text></view>
-                </navigator>
-            </view>
-            
-        </view>
+    <view class="select-bottom">
+      <navigator url="../component/list/list" bindtap="tapgoods" data-id="{{SelectedGoodBottom[0].id}}">
+        <image src="{{SelectedGoodBottom[0].imgUrls}}" mode="aspectFit"></image>
+      </navigator>
     </view>
+  </view>
+  <view class="newest">
+    <view class="newest-title"><text>最近新品</text></view>
+    <view class="newest-box">
+      <view class="newest-list" wx:for="{{NewGoods}}" wx:key="index">
+        <navigator url="../component/details/details">
+          <image src="{{ item.imgUrls }}" mode="aspectFit"></image>
+          <view class="newest-text"><text>{{item.name}}</text></view>
+          <view class="newest-text"><text>￥{{item.price}}</text></view>
+        </navigator>
+      </view>
+
+    </view>
+  </view>
 </view>

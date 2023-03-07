@@ -5,7 +5,7 @@ Page({
       'http://www.wtyz.vip/Nhimage/004.jpg'
     ],
     SelectedGoodsTop:[ ],
-    SelectedGoodBottom:{},
+    SelectedGoodBottom:[],
     NewGoods:[  
     ],
     indicatorDots: false,
@@ -15,7 +15,9 @@ Page({
     modal_status1:false,
     modal_status2:false,
   },
-  
+  tapgoods(e) {
+  console.log(e.currentTarget.dataset.id)
+},
  // index.js
 onLoad:function(options){
   const app=getApp()
