@@ -12,6 +12,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.price{
+  
+}
 .QR-code .close_btn{
   position: absolute;
   top: 2%;
