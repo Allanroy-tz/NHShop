@@ -11,7 +11,7 @@ Page({
     ],
     detail: [
       {
-        id: 'ornament', banner: 'http://www.wtyz.vip/Nhimage/toushi.jpg', cate: '饰品', detail: [{ thumb: 'http://www.wtyz.vip/Nhimage/toushi.jpg', name: '头饰' },
+        id: 'ornament', banner: 'http://www.wtyz.vip/Nhimage/toushi.jpg', cate: '饰品', detail: [{ thumb: 'http://www.wtyz.vip/Nhimage/toushi.jpg', name: '头饰' ,id:8},
         { thumb: 'http://www.wtyz.vip/Nhimage/toushu.jpg', name: '头梳', id: 12 }, { thumb: 'http://www.wtyz.vip/Nhimage/zanzi.jpg', name: '簪子', id: 9 }, { thumb: 'http://www.wtyz.vip/Nhimage/ershi.jpg', name: '耳饰', id: 2 }]
       },
 

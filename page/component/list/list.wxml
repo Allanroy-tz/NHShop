@@ -12,7 +12,7 @@
             </navigator>
         </view>
         <view class="newest-list" wx:key="index">
-            <navigator url="../details/details" bindtap="tapgoods" data-id="{{item.id}}">
+            <navigator url="../details/details" bindtap="tapgoods" data-id="{{SelectedGoodBottom[0].id}}">
                 <image src="{{SelectedGoodBottom[0].imgUrls}}" mode="aspectFit"></image>
                 <view class="newest-text"><text>{{SelectedGoodBottom[0].name}}</text></view>
                 <view class="newest-text"><text>￥ {{SelectedGoodBottom[0].price}}</text></view>

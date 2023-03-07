@@ -11,6 +11,7 @@
   background: url("http://www.wtyz.vip/Nhimage/QRcode.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 5%;
 }
 .price{
   

@@ -8,16 +8,21 @@ Page({
     obj:{
         name:"hello"
     }
-  },
+  },  
   onShow() {
     this.setData({
       hasList: true,
       carts:[
-        {id:1,title:'扇子',image:'http://www.wtyz.vip/Nhimage/shanzi.jpg',num:1,price:25,selected:true},
-        {id:2,title:'簪子 ',image:'http://www.wtyz.vip/Nhimage/zanzi.jpg',num:1,price:35,selected:true}
+        {id:10,title:'扇子',image:'http://www.wtyz.vip/Nhimage/shanzi.jpg',num:1,price:25,selected:true},
+        {id:9,title:'簪子 ',image:'http://www.wtyz.vip/Nhimage/zanzi.jpg',num:1,price:35,selected:true}
       ]
     });
     this.getTotalPrice();
+  },
+  tapgoods(e) {
+    const app=getApp()
+    app.SetCurrentGoods(e.currentTarget.dataset.id)
+    console.log(app.globalData.currentData)
   },
   /**
    * 当前商品选中事件
