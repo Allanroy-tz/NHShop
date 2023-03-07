@@ -2,14 +2,6 @@
 Page({
   data:{
     goods: {
-      id: 1,
-      image: 'http://www.wtyz.vip/Nhimage/shanzi.jpg',
-      title: '扇子',
-      price: 35,
-      stock: '有现货',
-      detail: '清风拂花香，执扇半遮面。',
-      parameter: '125g',
-      service: '不支持退货'
     },
     num: 1,
     totalNum: 0,
@@ -17,8 +9,11 @@ Page({
     curIndex: 0,
     show: false,
     scaleCart: false
+  }, 
+  onShow:function (params) {
+    const app=getApp()
+    this.setData({goods:app.globalData.currentData})
   },
-
   addCount() {
     let num = this.data.num;
     num++;

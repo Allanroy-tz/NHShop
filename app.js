@@ -16,6 +16,15 @@ App({
       list.push(this.globalData.Goods[element])
     });
   },
+  SetCurrentGoods:function (id) {
+    this.globalData.Goods.forEach(element => {
+      if(element.id==id)
+        {
+          this.globalData.currentData=element;
+          return;
+        }
+    });
+  },
 
 
   globalData: {
@@ -49,10 +58,12 @@ App({
     SelectedGoodBottomIndex: [2],
     SelectedGoodBottom:[],
     
+    currentData:{},
     
     NewGoods:[],
     NewGoodsIndex:[1,2,3,4,5,6
     ],
+    detail:[]
   },
   
 })
