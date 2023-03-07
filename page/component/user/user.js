@@ -1,11 +1,19 @@
 // page/component/new-pages/user/user.js
 Page({
   data:{
-    thumb:'../../../image/logo.jpg',
+    thumb:'http://www.wtyz.vip/Nhimage/logo.jpg',
     nickname:'女红商店官方',
     orders:[],
     hasAddress:false,
-    address:{}
+    address:{},
+    QRStatus:true
+  },  close_btn()
+  {
+    this.setData({QRStatus:true})
+  },
+  showQR()
+  {
+    this.setData({QRStatus:false})
   },
   onLoad(){
     var self = this;
@@ -15,8 +23,8 @@ Page({
     wx.getUserInfo({
       success: function(res){
         self.setData({
-          thumb: res.userInfo.avatarUrl,
-          nickname: res.userInfo.nickName
+          //thumb: res.userInfo.avatarUrl,
+          //nickname: res.userInfo.nickName
         })
       }
     })

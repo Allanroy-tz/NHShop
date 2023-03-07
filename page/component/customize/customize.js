@@ -2,17 +2,15 @@
 Page({
   data:{
     imgUrls: [
-      'http://www.wtyz.vip/Nhimage/003.jpg',
-      'http://www.wtyz.vip/Nhimage/004.jpg'
+      'http://www.wtyz.vip/Nhimage/customize.jpg'
     ],
     goods: {
       id: 1,
       image: 'http://www.wtyz.vip/Nhimage/shanzi.jpg',
       title: '扇子',
-      price: 99.9,
       stock: '有现货',
       detail: '这里是私人定制详情。。。。。，这里是私人定制详情。。。。，这里是私人定制详情。。。。，这里是私人定制详情。。。。',
-      parameter: '125g',
+      price: 'http://www.wtyz.vip/Nhimage/customizePrice.jpg',
       service: '不支持退货'
     },
     QRStatus:true,

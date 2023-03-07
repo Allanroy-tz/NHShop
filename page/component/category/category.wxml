@@ -6,7 +6,7 @@
     </view>
     <scroll-view class="categroy-right" scroll-y="{{isScroll}}" scroll-into-view="{{toView}}" scroll-with-animation="true">
          <block wx:for="{{detail}}" wx:for-index wx:key="idx">
-            <view id="{{item.id}}" class="cate-box">
+            <scroll-view id="{{item.id}}" class="cate-box" scroll-y="true">
                 <view class="cate-banner">
                     <image src="{{item.banner}}" mode="aspectFit"></image>
                 </view>
@@ -21,7 +21,7 @@
                         </navigator>
                     </view>
                 </view>
-            </view>
+            </scroll-view>
         </block> 
     </scroll-view>
 

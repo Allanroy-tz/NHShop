@@ -1,5 +1,26 @@
 @import '../../common/common.wxss';
-
+.QR-code{
+  width: 300px;
+  height: 460px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 18;
+  background: url("http://www.wtyz.vip/Nhimage/QRcode.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.QR-code .close_btn{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  background:url("http://www.wtyz.vip/Nhimage/close.png");
+  background-size: cover;
+}
 .header{
     position: relative;
     height: 160rpx;
