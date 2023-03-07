@@ -7,15 +7,15 @@
         <view class="newest-list" wx:for="{{ SelectedGoodsTop }}" wx:key="index">
             <navigator url="../details/details">
                 <image src="{{item.imgUrls}}" mode="aspectFit"></image>
-                <view class="newest-text"><text>头饰</text></view>
-                <view class="newest-text"><text>￥ 15</text></view>
+                <view class="newest-text"><text>{{item.name}}</text></view>
+                <view class="newest-text"><text>￥ {{item.price}}</text></view>
             </navigator>
         </view>
         <view class="newest-list" wx:key="index">
             <navigator url="../details/details">
-                <image src="{{SelectedGoodBottom.imgUrls}}" mode="aspectFit"></image>
-                <view class="newest-text"><text>头饰</text></view>
-                <view class="newest-text"><text>￥ 99.9</text></view>
+                <image src="{{SelectedGoodBottom[0].imgUrls}}" mode="aspectFit"></image>
+                <view class="newest-text"><text>{{SelectedGoodBottom[0].name}}</text></view>
+                <view class="newest-text"><text>￥ {{SelectedGoodBottom[0].price}}</text></view>
             </navigator>
         </view>
     </view>

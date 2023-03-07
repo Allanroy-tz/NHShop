@@ -16,7 +16,9 @@ Page({
     modal_status2:false,
   },
   tapgoods(e) {
-  console.log(e.currentTarget.dataset.id)
+  const app=getApp()
+  app.SetCurrentGoods(e.currentTarget.dataset.id)
+  console.log(app.globalData.currentData)
 },
  // index.js
 onLoad:function(options){

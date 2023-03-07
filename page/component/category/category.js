@@ -1,5 +1,6 @@
 Page({
     data: {
+  
         category: [
             {name:'饰品',id:'ornament'},
             {name:'针织',id:'kniting'},
@@ -25,7 +26,6 @@ Page({
         ],
         curIndex: 0,
         isScroll: false,
-        toView: 'guowei'
     },
     switchTab(e){
       const self = this;
@@ -45,5 +45,6 @@ Page({
       },1)
         
     }
+
     
 })
