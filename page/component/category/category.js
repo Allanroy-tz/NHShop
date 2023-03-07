@@ -29,15 +29,12 @@ Page({
     curIndex: 0,
     isScroll: false,
   },
-<<<<<<< HEAD
-=======
   tapgoods(e) {
     console.log("1233333333")
     const app = getApp()
     app.SetCurrentGoods(e.currentTarget.dataset.id)
     console.log(app.globalData.currentData)
   },
->>>>>>> 1afbbeadbf1e76097d8b5ecac47c4073b88a51a3
   switchTab(e) {
     const self = this;
     this.setData({
@@ -57,9 +54,5 @@ Page({
 
   }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 1afbbeadbf1e76097d8b5ecac47c4073b88a51a3
 
 })
